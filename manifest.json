@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Lightshot Hopper",
+  "version": "1.0",
+
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [{
+    "matches": ["*://prntscr.com/*", "*://*.prntscr.com/*", "*://prnt.sc/*", "*://*.prnt.sc/*"],
+    "js": ["content.js"]
+  }],
+  "browser_action": {
+    "default_title": "Lightshot Hopper"
+  },
+
+  "permissions": ["activeTab"]
+}
