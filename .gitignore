@@ -1,2 +1,12 @@
-# Vim swap files
+# Vim files
 *.swp
+*~
+
+# npm
+node_modules/
+
+# cert
+cert/
+
+# build
+build/

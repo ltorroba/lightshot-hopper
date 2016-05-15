@@ -13,11 +13,11 @@
 
   "background": {
     "persistent": false,
-    "scripts": ["background.js"]
+    "scripts": ["js/background.js"]
   },
   "content_scripts": [{
     "matches": ["*://prntscr.com/*", "*://*.prntscr.com/*", "*://prnt.sc/*", "*://*.prnt.sc/*"],
-    "js": ["content.js"]
+    "js": ["js/content.js"]
   }],
   "browser_action": {
     "default_title": "Lightshot Hopper"

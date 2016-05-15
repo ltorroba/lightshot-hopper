@@ -1,0 +1,30 @@
+{
+  "name": "lightshot-hopper",
+  "version": "1.0.0",
+  "description": "Simple chrome extension that takes users directly to the source of a screenshot hosted on prnt.sc (Lightshot)",
+  "main": "/dev/null",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zesme/lightshot-hopper.git"
+  },
+  "author": "Lucas F T Hennigen (@zesme)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/zesme/lightshot-hopper/issues"
+  },
+  "homepage": "https://github.com/zesme/lightshot-hopper#readme",
+  "devDependencies": {
+    "grunt-chrome-compile": "^0.2.2",
+    "grunt-contrib-compress": "^1.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1"
+  }
+}
