@@ -15,6 +15,9 @@ This project is open-source and licensed under GNU's General Public License 3.0.
 Click on this app's link to be taken to its git repository. Contributions are very
 welcome!
 
+[Click here to view on Chrome
+Webstore](https://chrome.google.com/webstore/detail/lightshot-hopper/iginncifemalhkdehoohpagknmimfhkn)
+
 ## Installation
 
 In order to run Lightshot Hopper on your computer, you must first install Node.js. This
